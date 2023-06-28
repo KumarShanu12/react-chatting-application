@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ header{
+  background-color: aliceblue;
+  height: 5rem;  
+}
+header > p {
+  color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+   
+}
+.btn-container button {
+  width: 100%;
+}
+.btn-container button:hover {
+   background-color: chocolate;
+}
+
+.footer p{
+  padding-bottom: 0.3rem;
+}
+.google-signin-btn{
+  padding: 1rem;
+    background-color: greenyellow;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+}
+.chatbox{
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: bisque;
+}
+.me .chatbox{
+  background-color: cadetblue;
+}
+
+.container{
+  display: flex;
+}
+.container.me{
+  flex-direction: row-reverse;
+}
+
+.btm{
+   
+  width: 100%;
+  bottom: 2px;
+  display: flex;
+  flex-direction: row;
+}
+.btm input{
+  padding: 10px 0;
+  flex-grow: 1;
+}
+.btm button{
+  padding: 10px 10px;
+}
+
+.chat-container{
+  height: 70vh;
+  overflow-y:scroll;
+  border: 1px solid black;
+  border-top: 1rem solid;
+  border-radius: 1rem;
+}
